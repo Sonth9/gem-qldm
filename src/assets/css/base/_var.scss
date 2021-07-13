@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+$z-layers: (
+  'modal': 1000,
+  'modaless': 900,
+  'header': 900,
+  'gnb': 800,
+  'title': 600,
+  'dropdown': 500,
+  'hover': 200,
+  'tooltip': 100,
+  'default': 1,
+  'bottomless-pit': -10000
+);
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    'black' : #000000,
+    'white' : #ffffff,
+    'gray-1': #666666,
+    'blue-1' : #2A6EBB,
+    'transparent' : transparent
+  ),
+  $theme-colors
+);

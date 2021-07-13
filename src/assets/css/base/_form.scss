@@ -1,0 +1,158 @@
+.box {
+  border: 1px solid #c9cdcf;
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.form-title {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.label-text {
+  margin-bottom: 7px;
+  display: block;
+}
+.form-control {
+  border-color: #C9CDCF;
+  border-radius: 0;
+  box-shadow: none;
+  height: 36px;
+}
+.form-group {
+  &.required {
+    label, .col-form-label {
+      &:after {
+        content:" *";
+        color:red;
+      }
+    }
+  }
+}
+.actions {
+  .btn {
+    margin: 0 3px;
+  }
+}
+.btn-line {
+  border-color: #1A62B3;
+  background: #fff;
+  color: #1A62B3;
+  text-transform: uppercase;
+  font-size: 14px;
+  &:hover {
+    opacity: 0.8;
+    color: #fff;
+    background: #1A62B3;
+  }
+}
+.btn-main {
+  background: #1A62B3;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.search-information-btn {
+  background: #1A62B3;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid #1A62B3;
+  &:hover {
+    opacity: 0.8;
+    color: #fff;
+    background-color: #1A62B3;
+    border: 1px solid #1A62B3;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #1A62B3 !important;
+    box-shadow: none !important;
+    outline: none;
+    border: 1px solid #1A62B3 !important;
+  }
+}
+.btn {
+  border-radius: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+.border-bottom-form {
+  border-bottom: 1px solid #C9CDCF;
+}
+
+/* pagination */
+.page-selection {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+
+  .disabled {
+    pointer-events: none;
+    background-color: #F3F3F3;
+    a {
+      color: #777 !important;
+    }
+    &:hover {
+      background-color: #ffffff;
+      cursor: not-allowed !important;
+    }
+  }
+
+  li {
+    display: inline-block;
+    padding: 6px 12px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #EEEEEE;
+    }
+
+    a {
+      color: #337ab7;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .border-left-top-bottom {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .active {
+    border-left: 1px solid #337ab7;
+    border-top: 1px solid #337ab7;
+    border-bottom: 1px solid #337ab7;
+    cursor: default !important;
+    background-color: #337ab7;
+
+    a {
+      color: #ffffff !important;
+    }
+
+    &:hover {
+      background-color: #337ab7 !important;
+    }
+  }
+
+  .next {
+    color: #337ab7;
+  }
+
+  .last {
+    border: 1px solid #ddd;
+    color: #337ab7;
+  }
+}

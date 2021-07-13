@@ -1,0 +1,79 @@
+#left-menu {
+  width: 260px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 70px;
+  background-color: #13559F;
+  z-index: 100;
+
+  .menus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+
+    .collapse {
+      li {
+        a {
+          font-weight: normal;
+        }
+      }
+    }
+
+    .header-account {
+      display: none;
+    }
+
+    .is-selected {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .border-bottom-menu {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+    }
+
+    li {
+      a {
+        font-weight: 500;
+        display: block;
+        color: #fff;
+        position: relative;
+        font-size: 14px;
+        padding: 10px 10px 10px 34px;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+          cursor: pointer;
+        }
+      }
+    }
+
+    .menu-icon {
+      position: absolute;
+      left: 10px;
+    }
+
+    .down-up-icon {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+    }
+  }
+
+  ol, ul, li {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,13 @@
+@import 'var';
+
+@function z($layer) {
+	@if not map-has-key($z-layers, $layer) {
+		@warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+	}
+
+	@return map-get($z-layers, $layer);
+}
+
+@function colorSet($value) {
+	@return map-get($theme-colors, $value);
+}

@@ -1,0 +1,11 @@
+.is-danger {
+  border-color: #a94442;
+}
+.error {
+  color: #a94442;
+}
+.invalid {
+  .multiselect__tags {
+    border-color: #a94442 !important;
+  }
+}

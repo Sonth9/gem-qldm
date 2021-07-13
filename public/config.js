@@ -1,0 +1,3 @@
+WINDOW_NODE_ENV="production";
+WINDOW_DOMAIN="http://172.16.10.135:8086";
+WINDOW_API_VERSION="/api";

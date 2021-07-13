@@ -1,0 +1,61 @@
+import Vue from "vue";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faAngleDown,
+  faAngleRight,
+  faBars,
+  faFileAlt,
+  faThLarge,
+  faFile,
+  faUser,
+  faLock,
+  faAngleUp,
+  faCalendarAlt,
+  faPlusSquare,
+  faTasks,
+  faSearch,
+  faCogs,
+  faPaperclip,
+  faSignOutAlt,
+  faEye,
+  faUserClock,
+  faPlus,
+  faTrashAlt,
+  faExclamationTriangle,
+  faHistory,
+  faEllipsisV,
+  faEdit,
+  faClock,
+  faBell
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(
+  faThLarge,
+  faAngleDown,
+  faAngleRight,
+  faBars,
+  faFileAlt,
+  faFile,
+  faUser,
+  faLock,
+  faAngleUp,
+  faCalendarAlt,
+  faPlusSquare,
+  faTasks,
+  faSearch,
+  faCogs,
+  faPaperclip,
+  faSignOutAlt,
+  faEye,
+  faUserClock,
+  faPlus,
+  faTrashAlt,
+  faExclamationTriangle,
+  faHistory,
+  faEllipsisV,
+  faEdit,
+  faClock,
+  faBell
+);
+Vue.component("font-awesome-icon", FontAwesomeIcon);

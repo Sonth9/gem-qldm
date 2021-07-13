@@ -1,0 +1,10 @@
+@import '../../../../node_modules/bootstrap/scss/bootstrap';
+@import '../../../../node_modules/bootstrap-vue/src/index';
+
+@import 'var';
+@import 'function';
+@import 'mixin';
+@import 'validate';
+@import 'form';
+@import "../components/app";
+@import 'multiple-select';

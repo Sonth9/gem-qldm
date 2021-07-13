@@ -1,0 +1,20 @@
+@import 'var';
+@import 'function';
+
+@mixin eachColorPicker($property, $value){
+	#{$property} : $value;
+}
+
+@mixin clearBoth {
+	content: ''; display: table; clear: both;
+}
+
+@mixin colorPicker($property, $value){
+	#{$property} : colorSet($value);
+}
+
+@each $color, $value in $theme-colors {
+	.color-#{$color} {
+		@include eachColorPicker(color, $value)
+	}
+}

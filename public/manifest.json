@@ -1,0 +1,8 @@
+{
+  "name": "houseme",
+  "short_name": "houseme",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "senderid from google console",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}
